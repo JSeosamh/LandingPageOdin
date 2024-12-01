@@ -119,3 +119,49 @@ body {
     float: right;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.CallTo {
+    height: 300px;
+    background-color: white;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CallToBlueBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  min-height: 150px;
+    min-width: 800px;
+    padding-left: 100px;
+    padding-right: 100px;
+  border-radius: 10px;
+    background-color: rgb(59, 130, 255);
+justify-content: space-between;
+
+}
+.SignUpButton {
+    background-color: rgb(59, 130, 255);
+    border: 3px solid white;
+    min-height: 50px;
+    font-size:150% ;
+    min-width: 130px;
+    border-radius: 10px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.CallToActionAllText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.CallToActionText {
+ color: white;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+.SignUpText {
+    margin-top: -30px;
+    color: white;
+    font-size: 150%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
